@@ -1,13 +1,27 @@
+import "./TaskList.css";
 import TaskItem from "./TaskItem";
+
+interface Task {
+  id: number;
+  title: string;
+  priority: string;
+  completed: boolean;
+}
+
+interface TaskListProps {
+  tasks: Task[];
+  onComplete: (id: number) => void;
+  onDelete: (id: number) => void;
+}
 
 export default function TaskList({
   tasks,
   onComplete,
   onDelete,
-}: any) {
+}: TaskListProps) {
   return (
-    <>
-      {tasks.map((task: any) => (
+    <div className="task-list">
+      {tasks.map((task) => (
         <TaskItem
           key={task.id}
           task={task}
@@ -15,6 +29,6 @@ export default function TaskList({
           onDelete={onDelete}
         />
       ))}
-    </>
+    </div>
   );
 }

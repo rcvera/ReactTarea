@@ -1,5 +1,5 @@
 
-
+import "./Stats.css";
 interface Props {
   tasks: any[];
 }

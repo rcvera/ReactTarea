@@ -1,3 +1,4 @@
+import "./Tasks.css";
 import { useEffect, useState } from "react";
 
 import TaskForm from "../componets/TaskForm";
@@ -39,6 +40,7 @@ export default function Tasks() {
 
   return (
     <>
+    <div className="tasks-page"></div>
       <TaskForm onAdd={addTask} />
 
       <TaskList

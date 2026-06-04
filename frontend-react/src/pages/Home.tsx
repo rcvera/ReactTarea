@@ -1,3 +1,4 @@
+import "./Home.css";
 import { Button, Typography } from "antd";
 import { Link } from "react-router-dom";
 

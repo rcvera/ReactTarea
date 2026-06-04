@@ -1,0 +1,22 @@
+.home-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.home-title {
+  font-size: 48px;
+  color: #1677ff;
+  margin-bottom: 20px;
+}
+
+.home-subtitle {
+  font-size: 18px;
+  color: #6b7280;
+  margin-bottom: 40px;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}

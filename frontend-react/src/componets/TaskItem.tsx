@@ -1,3 +1,4 @@
+import "./TaskItem.css";
 import { Button, Space } from "antd";
 
 export default function TaskItem({

@@ -1,3 +1,4 @@
+import "./TaskForm.css";
 import { Form, Input, Select, Button } from "antd";
 
 export default function TaskForm({ onAdd }: any) {
@@ -10,7 +11,8 @@ export default function TaskForm({ onAdd }: any) {
 
   return (
     <Form
-      form={form}
+    className="task-form"  
+    form={form}
       onFinish={submit}
     >
       <Form.Item

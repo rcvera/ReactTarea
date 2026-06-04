@@ -1,0 +1,32 @@
+.stats-container {
+  margin-top: 30px;
+}
+
+.stats-grid {
+  display: grid;
+
+  grid-template-columns:
+  repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 20px;
+}
+
+.stats-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+
+  text-align: center;
+
+  box-shadow: 0 3px 15px rgba(0,0,0,.08);
+}
+
+.stats-number {
+  font-size: 40px;
+  font-weight: bold;
+  color: #1677ff;
+}
+
+.stats-text {
+  color: #6b7280;
+}

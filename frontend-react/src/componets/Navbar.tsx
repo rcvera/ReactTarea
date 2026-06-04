@@ -1,3 +1,4 @@
+import "./Navbar.css";
 import { Menu } from "antd";
 import { Link } from "react-router-dom";
 
